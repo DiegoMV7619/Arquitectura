@@ -20,8 +20,7 @@ always @* begin
 	begin
 		z_flag = 1'b1;
 	end
-	else
-	begin
+	else begin
 		z_flag = 1'b0;
 	end
 end
